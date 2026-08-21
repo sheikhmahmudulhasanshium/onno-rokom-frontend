@@ -2,7 +2,7 @@
 
 import * as React from "react"
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000/api"
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000/api" ||"https://onno-rokom-backend.onrender.com/api"
 
 export function useUpload() {
   const [uploading, setUploading] = React.useState(false)
